@@ -193,12 +193,12 @@ export default function About() {
                 animate={ceoInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
                 transition={{ duration: 0.7, delay: 0.2 }}
               >
-                <Image
+                {/* <Image
                   src="/images/team/ceo-1.jpg"
                   alt={t('about.ceo.name') || "Klaus Becker"}
                   fill
                   className="object-cover object-center"
-                />
+                /> */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                   <h3 className="text-2xl font-bold">{t('about.ceo.name') || "Klaus Becker"}</h3>
@@ -349,12 +349,12 @@ export default function About() {
                 {t('about.values.reliability.content') || "We aim to be reliable and consistent in our services and support."}
               </p>
             </motion.div>
-          </motion.div>
+          </motion.div> 
         </div>
       </Section>
       
       {/* Team Section */}
-      <Section id="team" background="white">
+      {/* <Section id="team" background="white">
         <SectionTitle
           title={t('about.team.title') || "Our Leadership Team"}
           subtitle={t('about.team.subtitle') || "Experienced Security Professionals"}
@@ -386,7 +386,7 @@ export default function About() {
             </motion.div>
           ))}
         </div>
-      </Section>
+      </Section> */}
       
       {/* CTA Section */}
       <CTA

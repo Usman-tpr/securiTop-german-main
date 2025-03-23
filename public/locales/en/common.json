@@ -3,6 +3,11 @@
     "title": "SecuriTop - Leading Security Service in Germany",
     "description": "SecuriTop provides comprehensive security solutions for businesses and individuals across Germany. Our services include physical security, cyber security, CCTV systems, and more."
   },
+  "careersb": {
+    "buttons": {
+      "apply": "Apply Now"
+    }
+  },
   "nav": {
     "home": "Home",
     "about": "About",
@@ -111,11 +116,11 @@
     },
     "history": {
       "title": "Our History",
-      "content": "SecuriTop was founded in 2010 by Klaus Becker as a small security consultancy in Berlin. Over the years, we've grown into a comprehensive security service provider with offices across Germany, serving clients from various industries."
+      "content": "SecuriTop was founded in 2010 by Sajjad Khan as a small security consultancy in Berlin. Over the years, we've grown into a comprehensive security service provider with offices across Germany, serving clients from various industries."
     },
     "ceo": {
       "title": "Message from Our CEO",
-      "name": "Klaus Becker",
+      "name": "Sajjad Khan",
       "position": "Founder & CEO",
       "message": "At SecuriTop, we believe that security is not just about protection - it's about creating peace of mind that allows our clients to focus on what matters most to them. Since founding this company in 2010, our mission has been to deliver exceptional security services with integrity, innovation, and a genuine commitment to our clients' wellbeing. Our team of dedicated professionals works tirelessly to stay ahead of evolving security challenges and to provide solutions that truly make a difference. As we continue to grow, our commitment to excellence and personalized service remains unwavering.",
       "vision": "Together, we're building a safer future for businesses and communities across Germany."
@@ -308,9 +313,9 @@
       "berlin": {
         "title": "Herrenberg (Headquarters)",
         "address": "Adlerstraße 7, 71083 Herrenberg, Germany",
-        "phone": "0703237550199",
+        "phone": "07032-37550199",
         "mobile": "017662070553",
-        "email": "info@securitop.de"
+        "email": "info@securitop-sicherheit.de"
       },
       "munich": {
         "title": "Munich",

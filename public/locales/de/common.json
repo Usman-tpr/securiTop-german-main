@@ -3,6 +3,11 @@
     "title": "SecuriTop - Führender Sicherheitsdienst in Deutschland",
     "description": "SecuriTop bietet umfassende Sicherheitslösungen für Unternehmen und Privatpersonen in ganz Deutschland. Unsere Dienstleistungen umfassen Objektschutz, Cybersicherheit, Videoüberwachung und mehr."
   },
+  "careersb": {
+    "buttons": {
+      "apply": "Jetzt bewerben"
+    }
+  },
   "nav": {
     "home": "Startseite",
     "about": "Über Uns",
@@ -111,11 +116,11 @@
     },
     "history": {
       "title": "Unsere Geschichte",
-      "content": "SecuriTop wurde 2010 von Klaus Becker als kleine Sicherheitsberatung in Berlin gegründet. Im Laufe der Jahre haben wir uns zu einem umfassenden Anbieter von Sicherheitsdienstleistungen mit Büros in ganz Deutschland entwickelt und betreuen Kunden aus verschiedenen Branchen."
+      "content": "SecuriTop wurde 2010 von Sajjad Khan als kleine Sicherheitsberatung in Berlin gegründet. Im Laufe der Jahre haben wir uns zu einem umfassenden Anbieter von Sicherheitsdienstleistungen mit Büros in ganz Deutschland entwickelt und betreuen Kunden aus verschiedenen Branchen."
     },
     "ceo": {
       "title": "Botschaft unseres CEO",
-      "name": "Klaus Becker",
+      "name": "Sajjad Khan",
       "position": "Gründer & CEO",
       "message": "Bei SecuriTop glauben wir, dass Sicherheit nicht nur Schutz bedeutet - es geht darum, Seelenfrieden zu schaffen, der es unseren Kunden ermöglicht, sich auf das zu konzentrieren, was für sie am wichtigsten ist. Seit der Gründung dieses Unternehmens im Jahr 2010 besteht unsere Mission darin, außergewöhnliche Sicherheitsdienstleistungen mit Integrität, Innovation und einem aufrichtigen Engagement für das Wohlbefinden unserer Kunden zu erbringen. Unser Team engagierter Fachleute arbeitet unermüdlich daran, den sich ständig weiterentwickelnden Sicherheitsherausforderungen immer einen Schritt voraus zu sein und Lösungen anzubieten, die wirklich einen Unterschied machen. Während wir weiter wachsen, bleibt unser Engagement für Exzellenz und personalisierten Service unerschütterlich.",
       "vision": "Gemeinsam bauen wir eine sicherere Zukunft für Unternehmen und Gemeinschaften in ganz Deutschland auf."
@@ -308,9 +313,9 @@
       "berlin": {
         "title": "Herrenberg (Hauptsitz)",
         "address": "Adlerstraße 7, 71083 Herrenberg, Deutschland",
-        "phone": "0703237550199",
+        "phone": "07032-37550199",
         "mobile": "017662070553",
-        "email": "info@securitop.de"
+        "email": "info@securitop-sicherheit.de"
       },
       "munich": {
         "title": "München",

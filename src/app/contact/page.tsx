@@ -285,7 +285,7 @@ export default function Contact() {
           title={t('contact.locations.title')}
         />
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+        <div className="flex items-center justify-center mt-10">
           <div className="bg-light p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-4">{t('contact.locations.berlin.title')}</h3>
             <p className="mb-2">{t('contact.locations.berlin.address')}</p>
@@ -303,39 +303,7 @@ export default function Contact() {
             </p>
           </div>
           
-          <div className="bg-light p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4">{t('contact.locations.munich.title')}</h3>
-            <p className="mb-2">{t('contact.locations.munich.address')}</p>
-            <p className="mb-2">
-              <strong>{t('contact.info.phone')}:</strong>{' '}
-              <a href={`tel:${t('contact.locations.munich.phone')}`} className="hover:text-primary">
-                {t('contact.locations.munich.phone')}
-              </a>
-            </p>
-            <p>
-              <strong>{t('contact.info.email')}:</strong>{' '}
-              <a href={`mailto:${t('contact.locations.munich.email')}`} className="hover:text-primary">
-                {t('contact.locations.munich.email')}
-              </a>
-            </p>
-          </div>
-          
-          <div className="bg-light p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4">{t('contact.locations.hamburg.title')}</h3>
-            <p className="mb-2">{t('contact.locations.hamburg.address')}</p>
-            <p className="mb-2">
-              <strong>{t('contact.info.phone')}:</strong>{' '}
-              <a href={`tel:${t('contact.locations.hamburg.phone')}`} className="hover:text-primary">
-                {t('contact.locations.hamburg.phone')}
-              </a>
-            </p>
-            <p>
-              <strong>{t('contact.info.email')}:</strong>{' '}
-              <a href={`mailto:${t('contact.locations.hamburg.email')}`} className="hover:text-primary">
-                {t('contact.locations.hamburg.email')}
-              </a>
-            </p>
-          </div>
+
         </div>
       </Section>
     </Layout>

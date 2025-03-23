@@ -18,9 +18,9 @@ export const siteConfig = {
     logo: "/images/logo/logo-1.jpeg",
   },
   contact: {
-    phone: "0703237550199",
+    phone: "07032-37550199",
     mobile: "017662070553",
-    email: "info@securitop.de",
+    email: "info@securitop-sicherheit.de",
     address: {
       street: "Adlerstraße 7",
       city: "Herrenberg",
@@ -39,7 +39,7 @@ export const siteConfig = {
       { label: { en: "Home", de: "Startseite" }, path: "/" },
       { label: { en: "About Us", de: "Über Uns" }, path: "/about" },
       { label: { en: "Services", de: "Dienstleistungen" }, path: "/services" },
-    //   { label: { en: "Blog", de: "Blog" }, path: "/blog" },
+      { label: { en: "Careers", de: "Karriere" }, path: "/careers" },
       { label: { en: "FAQ", de: "FAQ" }, path: "/faq" },
       { label: { en: "Contact", de: "Kontakt" }, path: "/contact" },
     ],

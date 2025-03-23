@@ -20,7 +20,7 @@ interface I18nContextType {
 
 const I18nContext = createContext<I18nContextType | undefined>(undefined);
 
-const DEFAULT_LOCALE: Locale = 'en';
+const DEFAULT_LOCALE: Locale = 'de';
 
 // Get stored locale from localStorage (with SSR check)
 const getStoredLocale = (): Locale => {
