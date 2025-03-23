@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add custom utility classes for the colors from the theme */
+@layer utilities {
+  .bg-primary {
+    background-color: #002366;
+  }
+  .bg-primaryDark {
+    background-color: #001A4D;
+  }
+  .bg-secondary {
+    background-color: #FFD700;
+  }
+  .bg-secondaryDark {
+    background-color: #CCAC00;
+  }
+  .text-primary {
+    color: #002366;
+  }
+  .border-primary {
+    border-color: #002366;
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-15px) rotate(5deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes float-reverse {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-10px) rotate(-5deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+  animation-fill-mode: both;
+  will-change: transform;
+}
+
+.animate-float-reverse {
+  animation: float-reverse 7s ease-in-out infinite;
+  animation-fill-mode: both;
+  will-change: transform;
+}
+
+/* Add animation for pulse to ensure it's consistent */
+@keyframes custom-pulse {
+  0%, 100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.animate-custom-pulse {
+  animation: custom-pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  animation-fill-mode: both;
+}

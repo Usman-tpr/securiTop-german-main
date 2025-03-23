@@ -1,0 +1,541 @@
+{
+  "meta": {
+    "title": "SecuriTop - Führender Sicherheitsdienst in Deutschland",
+    "description": "SecuriTop bietet umfassende Sicherheitslösungen für Unternehmen und Privatpersonen in ganz Deutschland. Unsere Dienstleistungen umfassen Objektschutz, Cybersicherheit, Videoüberwachung und mehr."
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "services": "Dienstleistungen",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Kontakt"
+  },
+  "buttons": {
+    "getStarted": "Jetzt Starten",
+    "learnMore": "Mehr Erfahren",
+    "contactUs": "Kontaktieren Sie Uns",
+    "getQuote": "Kostenloses Angebot",
+    "readMore": "Weiterlesen",
+    "viewAll": "Alle Anzeigen",
+    "send": "Nachricht Senden",
+    "subscribe": "Abonnieren",
+    "ourServices": "Unsere Dienstleistungen"
+  },
+  "showcase": {
+    "title": "Sicherheit in Aktion",
+    "subtitle": "Erleben Sie unsere umfassenden Sicherheitslösungen, die Unternehmen und Privatpersonen in Deutschland schützen."
+  },
+  "home": {
+    "hero": {
+      "title": "Ihre Sicherheit, unsere Priorität",
+      "subtitle": "Umfassende Sicherheitslösungen für Unternehmen und Privatpersonen",
+      "cta": "Erhalten Sie eine kostenlose Sicherheitsbewertung"
+    },
+    "benefits": {
+      "professional": {
+        "title": "Professionelles Team",
+        "description": "Unsere hochqualifizierten Sicherheitsexperten sind den höchsten Servicestandards verpflichtet."
+      },
+      "reliable": {
+        "title": "Zuverlässiger Service",
+        "description": "Wir bieten zuverlässige Sicherheitslösungen mit 24/7-Verfügbarkeit und schnellen Reaktionszeiten."
+      },
+      "certified": {
+        "title": "Zertifizierte Expertise",
+        "description": "Unser Team ist vollständig zertifiziert mit branchenweit anerkannten Qualifikationen und umfangreicher Erfahrung."
+      },
+      "tailored": {
+        "title": "Maßgeschneiderte Lösungen",
+        "description": "Wir erstellen individuelle Sicherheitsstrategien, um Ihren spezifischen Anforderungen gerecht zu werden."
+      }
+    },
+    "services": {
+      "title": "Unsere Dienstleistungen",
+      "subtitle": "Umfassende Sicherheitslösungen"
+    },
+    "about": {
+      "title": "Über SecuriTop",
+      "subtitle": "Führender Sicherheitsanbieter in Deutschland",
+      "content": "SecuriTop wurde 2010 gegründet und hat sich als führender Anbieter von Sicherheitsdienstleistungen in Deutschland etabliert. Mit einem Team hochqualifizierter Sicherheitsexperten bieten wir innovative und effektive Sicherheitslösungen, die auf die Bedürfnisse unserer Kunden zugeschnitten sind.",
+      "experience": "Jahre Erfahrung",
+      "clients": "Zufriedene Kunden",
+      "experts": "Sicherheitsexperten",
+      "support": "Support & Überwachung",
+      "trusted": "Vertrauenswürdig für Unternehmen in ganz Deutschland",
+      "yearsExp": "Jahre Erfahrung",
+      "points": {
+        "professional": "Professionelles Sicherheitspersonal, das nach höchsten Branchenstandards geschult ist",
+        "licensed": "Vollständig lizenziert und versichert mit allen erforderlichen Zertifizierungen",
+        "trained": "Kontinuierliche Schulung und Entwicklung, um Sicherheitsherausforderungen immer einen Schritt voraus zu sein"
+      }
+    },
+    "testimonials": {
+      "title": "Was unsere Kunden sagen",
+      "subtitle": "Vertrauenswürdig für Unternehmen in ganz Deutschland"
+    },
+    "stats": {
+      "title": "Unsere Sicherheitsbilanz",
+      "subtitle": "SecuriTop's Exzellenz in Zahlen"
+    },
+    "whyChoose": {
+      "title": "Warum SecuriTop wählen",
+      "subtitle": "Die Vorteile einer Partnerschaft mit unserem Sicherheitsteam",
+      "expertise": {
+        "title": "Experten-Sicherheitsteam",
+        "description": "Unsere Sicherheitsexperten verfügen über umfangreiche Schulungen und Erfahrungen in allen Aspekten des Sicherheitsbetriebs."
+      },
+      "customized": {
+        "title": "Individueller Ansatz",
+        "description": "Wir entwickeln maßgeschneiderte Sicherheitsstrategien, die Ihre spezifischen Herausforderungen und Anforderungen berücksichtigen."
+      },
+      "responsive": {
+        "title": "Reaktionsschneller Support",
+        "description": "Unsere 24/7-Überwachungs- und Schnellreaktionsteams sorgen für sofortiges Handeln bei Sicherheitsproblemen."
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihre Sicherheit zu verbessern?",
+      "subtitle": "Kontaktieren Sie uns noch heute für eine kostenlose Sicherheitsbewertung",
+      "button": "Jetzt Starten"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Über SecuriTop",
+      "subtitle": "Führender Anbieter von Sicherheitsdienstleistungen in Deutschland"
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "content": "Bei SecuriTop ist es unsere Mission, Sicherheitsdienstleistungen und -lösungen von höchster Qualität anzubieten, die die Vermögenswerte, Menschen und Betriebsabläufe unserer Kunden schützen und gleichzeitig Seelenfrieden und Mehrwert bieten."
+    },
+    "history": {
+      "title": "Unsere Geschichte",
+      "content": "SecuriTop wurde 2010 von Klaus Becker als kleine Sicherheitsberatung in Berlin gegründet. Im Laufe der Jahre haben wir uns zu einem umfassenden Anbieter von Sicherheitsdienstleistungen mit Büros in ganz Deutschland entwickelt und betreuen Kunden aus verschiedenen Branchen."
+    },
+    "ceo": {
+      "title": "Botschaft unseres CEO",
+      "name": "Klaus Becker",
+      "position": "Gründer & CEO",
+      "message": "Bei SecuriTop glauben wir, dass Sicherheit nicht nur Schutz bedeutet - es geht darum, Seelenfrieden zu schaffen, der es unseren Kunden ermöglicht, sich auf das zu konzentrieren, was für sie am wichtigsten ist. Seit der Gründung dieses Unternehmens im Jahr 2010 besteht unsere Mission darin, außergewöhnliche Sicherheitsdienstleistungen mit Integrität, Innovation und einem aufrichtigen Engagement für das Wohlbefinden unserer Kunden zu erbringen. Unser Team engagierter Fachleute arbeitet unermüdlich daran, den sich ständig weiterentwickelnden Sicherheitsherausforderungen immer einen Schritt voraus zu sein und Lösungen anzubieten, die wirklich einen Unterschied machen. Während wir weiter wachsen, bleibt unser Engagement für Exzellenz und personalisierten Service unerschütterlich.",
+      "vision": "Gemeinsam bauen wir eine sicherere Zukunft für Unternehmen und Gemeinschaften in ganz Deutschland auf."
+    },
+    "team": {
+      "title": "Unser Führungsteam",
+      "subtitle": "Erfahrene Sicherheitsexperten"
+    },
+    "values": {
+      "title": "Unsere Kernwerte",
+      "integrity": {
+        "title": "Integrität",
+        "content": "Wir handeln in all unseren Interaktionen mit Ehrlichkeit, Transparenz und ethischen Standards."
+      },
+      "excellence": {
+        "title": "Exzellenz",
+        "content": "Wir streben nach Exzellenz in jedem Aspekt unserer Dienstleistungen und verbessern kontinuierlich unsere Methoden und Lösungen."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "content": "Wir setzen auf neue Technologien und Ansätze, um Sicherheitsmaßnahmen und -lösungen zu verbessern."
+      },
+      "reliability": {
+        "title": "Zuverlässigkeit",
+        "content": "Wir sind bestrebt, in unseren Dienstleistungen und im Support zuverlässig und konsequent zu sein."
+      }
+    },
+    "certifications": {
+      "title": "Unsere Zertifizierungen",
+      "subtitle": "Branchenweit anerkannte Standards"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Unsere Dienstleistungen",
+      "subtitle": "Umfassende Sicherheitslösungen"
+    },
+    "features": "Hauptmerkmale",
+    "property": {
+      "title": "Objektschutz",
+      "content": "Unsere Objektschutzdienstleistungen bieten umfassenden Schutz für Ihre Räumlichkeiten, Gebäude und Vermögenswerte. Wir implementieren maßgeschneiderte Sicherheitsmaßnahmen, um sicherzustellen, dass Ihr Eigentum vor unbefugtem Zugriff und Sicherheitsbedrohungen geschützt ist.",
+      "features": {
+        "1": "24/7 Objektüberwachung",
+        "2": "Zugangskontrollverwaltung",
+        "3": "Patrouilliendienste",
+        "4": "Sicherheitspersonal",
+        "5": "Alarmreaktion"
+      }
+    },
+    "personal": {
+      "title": "Personenschutz",
+      "content": "Unsere Personenschutzdienste bieten spezialisierte Sicherheit für Personen, die erhöhte Sicherheitsmaßnahmen benötigen. Ob Sie Personenschutz für Führungskräfte oder persönliche Leibwächter benötigen, unsere ausgebildeten Fachleute gewährleisten Ihre Sicherheit.",
+      "features": {
+        "1": "Personenschutz für Führungskräfte",
+        "2": "Leibwächterdienste",
+        "3": "Sicherheitsrisikobewertung",
+        "4": "Reisesicherheit",
+        "5": "Bedrohungsmanagement"
+      }
+    },
+    "fire": {
+      "title": "Brandschutz",
+      "content": "Unsere Brandschutzdienstleistungen umfassen umfassende Brandschutzmaßnahmen, Inspektionen und Notfallplanung, um Ihr Eigentum und Personal vor brandgefährlichen Vorfällen zu schützen.",
+      "features": {
+        "1": "Brandverhütungsdienste",
+        "2": "Brandschutzinspektionen",
+        "3": "Notfallreaktionsplanung",
+        "4": "Brandmelderüberwachung",
+        "5": "Evakuierungsplanung"
+      }
+    },
+    "nightwatch": {
+      "title": "Nachtwachdienste",
+      "content": "Unsere Nachtwachdienste stellen dediziertes Sicherheitspersonal zur Verfügung, das Ihre Räumlichkeiten während der Nachtstunden überwacht und so einen Rund-um-die-Uhr-Schutz und sofortige Reaktion auf Sicherheitsbedenken gewährleistet.",
+      "features": {
+        "1": "Sicherheit nach Geschäftsschluss",
+        "2": "Nachtpatrouillen",
+        "3": "Notfallreaktion",
+        "4": "Objektkontrollen",
+        "5": "Vorfallberichterstattung"
+      }
+    },
+    "events": {
+      "title": "Veranstaltungssicherheit",
+      "content": "Wir stellen professionelles Sicherheitspersonal für Veranstaltungen, Messen, Diskotheken und mehr bereit. Unsere Türsteher-Dienste und Crowd-Management sorgen für eine sichere Umgebung für Ihre Veranstaltungsteilnehmer.",
+      "features": {
+        "1": "Sicherheitsplanung für Veranstaltungen",
+        "2": "Crowd-Management",
+        "3": "Zugangskontrolle",
+        "4": "VIP-Schutz",
+        "5": "Türsteherdienste"
+      }
+    },
+    "retail": {
+      "title": "Einzelhandelsermittlungen",
+      "content": "Unsere Einzelhandelsermittlungsdienste helfen, Diebstahl zu verhindern und die Ladensicherheit durch spezialisierte Techniken wie verdeckte Operationen, Überwachung und Strategien zur Verlustvermeidung zu gewährleisten.",
+      "features": {
+        "1": "Ladendiebstahlprävention",
+        "2": "Verdeckte Ermittlungen",
+        "3": "Ermittlungen bei Mitarbeiterdiebstahl",
+        "4": "CCTV-Überwachung",
+        "5": "Verlustprävention"
+      }
+    },
+    "transport": {
+      "title": "Transportdienste",
+      "content": "Wir bieten sichere Transportdienste für wertvolle Waren, Dokumente und Vermögenswerte an und stellen sicher, dass diese mit professioneller Sicherheitsbegleitung und sicheren Fahrzeugen sicher an ihr Ziel gelangen.",
+      "features": {
+        "1": "Sicherer Warentransport",
+        "2": "Fahrzeugbegleitdienste",
+        "3": "Transport wertvoller Güter",
+        "4": "Dokumentenkurierdienste",
+        "5": "Sicherheitsfahrer"
+      }
+    },
+    "detective": {
+      "title": "Detekteidienste",
+      "content": "Unsere professionellen Detektivdienste bieten diskrete und gründliche Ermittlungen für Privatpersonen und Unternehmen, einschließlich Hintergrundüberprüfungen, Überwachung und Beweissammlung.",
+      "features": {
+        "1": "Privatermittlungen",
+        "2": "Hintergrundüberprüfungen",
+        "3": "Überwachungsoperationen",
+        "4": "Beweissammlung",
+        "5": "Unternehmensermittlungen"
+      }
+    },
+    "district": {
+      "title": "Revierdienste",
+      "content": "Unsere Revierdienste umfassen regelmäßige Sicherheitspatrouillen und Überwachung bestimmter Gebiete, Nachbarschaften und Geschäftsviertel, die eine sichtbare Sicherheitspräsenz und schnelle Reaktion bieten.",
+      "features": {
+        "1": "Nachbarschaftspatrouillen",
+        "2": "Wohngebäudesicherheit",
+        "3": "Schutz von Geschäftsvierteln",
+        "4": "Sicherheitsberichterstattung",
+        "5": "Schnelle Reaktion"
+      }
+    },
+    "technology": {
+      "title": "Sicherheitstechnik",
+      "content": "Wir bieten hochmoderne Sicherheitstechnologielösungen einschließlich Alarmanlagen, CCTV-Kameras, Zugangskontrollsysteme und laufende Wartung, um sicherzustellen, dass Ihre Sicherheitsinfrastruktur effektiv bleibt.",
+      "features": {
+        "1": "Installation von Sicherheitssystemen",
+        "2": "CCTV-Systeme",
+        "3": "Alarmanlagen",
+        "4": "Zugangskontrollsysteme",
+        "5": "Wartung von Sicherheitssystemen"
+      }
+    },
+    "asylum": {
+      "title": "Schutz von Asylunterkünften",
+      "content": "Wir bieten spezialisierte Sicherheitsdienste für Asylunterkünfte und -einrichtungen an, die eine sichere Umgebung für die Bewohner gewährleisten und gleichzeitig Konflikte verhindern und die Zugangskontrolle verwalten.",
+      "features": {
+        "1": "24/7 Einrichtungsschutz",
+        "2": "Sicherheitsdienste für Bewohner",
+        "3": "Konfliktprävention",
+        "4": "Zugangskontrolle",
+        "5": "Sicherheitspatrouillen"
+      }
+    },
+    "cta": {
+      "title": "Benötigen Sie eine maßgeschneiderte Sicherheitslösung?",
+      "subtitle": "Kontaktieren Sie uns noch heute, um Ihre spezifischen Sicherheitsanforderungen zu besprechen"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Kontakt",
+      "subtitle": "Nehmen Sie Kontakt mit unserem Team auf"
+    },
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail",
+      "phone": "Ihre Telefonnummer",
+      "subject": "Betreff",
+      "message": "Ihre Nachricht",
+      "submit": "Nachricht Senden",
+      "success": "Ihre Nachricht wurde erfolgreich gesendet. Wir werden uns in Kürze bei Ihnen melden.",
+      "error": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "address": "Adresse",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "hours": "Öffnungszeiten"
+    },
+    "locations": {
+      "title": "Unsere Standorte",
+      "berlin": {
+        "title": "Herrenberg (Hauptsitz)",
+        "address": "Adlerstraße 7, 71083 Herrenberg, Deutschland",
+        "phone": "0703237550199",
+        "mobile": "017662070553",
+        "email": "info@securitop.de"
+      },
+      "munich": {
+        "title": "München",
+        "address": "Sicherheitsallee 456, 80331 München, Deutschland",
+        "phone": "+49 123 456 790",
+        "email": "munich@securitop.de"
+      },
+      "hamburg": {
+        "title": "Hamburg",
+        "address": "Sicherheitsweg 789, 20095 Hamburg, Deutschland",
+        "phone": "+49 123 456 791",
+        "email": "hamburg@securitop.de"
+      }
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Blog & Neuigkeiten",
+      "subtitle": "Aktuelle Updates aus der Sicherheitsbranche"
+    },
+    "recent": {
+      "title": "Aktuelle Artikel",
+      "viewAll": "Alle Artikel Anzeigen"
+    },
+    "categories": {
+      "title": "Kategorien",
+      "physical": "Objektschutz",
+      "cyber": "Cybersicherheit",
+      "industry": "Branchennachrichten",
+      "tips": "Sicherheitstipps",
+      "technology": "Sicherheitstechnologie"
+    },
+    "popular": {
+      "title": "Beliebte Artikel"
+    },
+    "readTime": "Min. Lesezeit",
+    "author": "Autor"
+  },
+  "faq": {
+    "hero": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Finden Sie Antworten auf Ihre Fragen zur Sicherheit"
+    },
+    "title": "FAQ",
+    "subtitle": "Alles, was Sie über unsere Sicherheitsdienstleistungen wissen müssen",
+    "searchPlaceholder": "Suchen Sie nach einer Frage...",
+    "noResults": "Keine Ergebnisse gefunden",
+    "categories": {
+      "title": "FAQ-Kategorien",
+      "services": "Dienstleistungen",
+      "property": "Objektschutz",
+      "personal": "Personenschutz",
+      "fire": "Brandschutz",
+      "nightwatch": "Nachtwachdienste",
+      "events": "Veranstaltungssicherheit",
+      "retail": "Einzelhandelsermittlungen",
+      "transport": "Transportdienste",
+      "detective": "Detekteidienste",
+      "district": "Revierdienste",
+      "technology": "Sicherheitstechnik",
+      "asylum": "Schutz von Asylunterkünften",
+      "pricing": "Preise & Angebote",
+      "support": "Support & Hilfe"
+    },
+    "cta": {
+      "title": "Noch Fragen?",
+      "subtitle": "Kontaktieren Sie uns für weitere Informationen"
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "description": "Datenschutzrichtlinie für SecuriTop Sicherheitsdienste",
+    "subtitle": "Wie wir mit Ihren persönlichen Daten umgehen",
+    "lastUpdated": "Zuletzt aktualisiert: 1. Oktober 2023",
+    "introduction": {
+      "title": "Einführung",
+      "content": "Bei SecuriTop respektieren wir Ihre Privatsphäre und sind bestrebt, Ihre personenbezogenen Daten zu schützen. Diese Datenschutzrichtlinie informiert Sie darüber, wie wir mit Ihren personenbezogenen Daten umgehen, wenn Sie unsere Website besuchen, und informiert Sie über Ihre Datenschutzrechte und wie das Gesetz Sie schützt."
+    },
+    "dataCollected": {
+      "title": "Informationen, die wir sammeln",
+      "content": "Wir können verschiedene Arten von personenbezogenen Daten über Sie sammeln, verwenden, speichern und übertragen, die wir wie folgt gruppiert haben:",
+      "identity": "Identitätsdaten: beinhaltet Vorname, Nachname, Benutzername oder ähnliche Kennungen.",
+      "contact": "Kontaktdaten: beinhaltet Rechnungsadresse, Lieferadresse, E-Mail-Adresse und Telefonnummern.",
+      "technical": "Technische Daten: beinhalten Internet-Protokoll (IP)-Adresse, Ihre Anmeldedaten, Browsertyp und -version, Zeitzoneneinstellung und Standort, Browser-Plug-in-Typen und -Versionen, Betriebssystem und Plattform sowie andere Technologien auf den Geräten, die Sie zum Zugriff auf diese Website verwenden.",
+      "usage": "Nutzungsdaten: beinhalten Informationen darüber, wie Sie unsere Website, Produkte und Dienstleistungen nutzen."
+    },
+    "howWeUse": {
+      "title": "Wie wir Ihre Informationen verwenden",
+      "content": "Wir verwenden Ihre personenbezogenen Daten nur, wenn das Gesetz es uns erlaubt. Am häufigsten verwenden wir Ihre personenbezogenen Daten unter folgenden Umständen:",
+      "point1": "Um Sie als neuen Kunden zu registrieren.",
+      "point2": "Um Ihre Bestellung zu bearbeiten und zu liefern.",
+      "point3": "Um unsere Beziehung zu Ihnen zu verwalten.",
+      "point4": "Um Ihnen Vorschläge und Empfehlungen zu Dienstleistungen zu machen, die für Sie von Interesse sein könnten."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "Unsere Website verwendet Cookies, um Sie von anderen Nutzern unserer Website zu unterscheiden. Dies hilft uns, Ihnen ein gutes Erlebnis zu bieten, wenn Sie unsere Website durchsuchen, und ermöglicht uns auch, unsere Website zu verbessern."
+    },
+    "dataSecurity": {
+      "title": "Datensicherheit",
+      "content": "Wir haben angemessene Sicherheitsmaßnahmen getroffen, um zu verhindern, dass Ihre personenbezogenen Daten versehentlich verloren gehen, verwendet oder auf unbefugte Weise abgerufen, verändert oder offengelegt werden. Darüber hinaus beschränken wir den Zugriff auf Ihre personenbezogenen Daten auf diejenigen Mitarbeiter, Vertreter, Auftragnehmer und andere Dritte, die ein geschäftliches Bedürfnis haben, sie zu kennen."
+    },
+    "yourRights": {
+      "title": "Ihre gesetzlichen Rechte",
+      "content": "Unter bestimmten Umständen haben Sie nach den Datenschutzgesetzen Rechte in Bezug auf Ihre personenbezogenen Daten, einschließlich des Rechts, Zugang, Berichtigung, Löschung, Einschränkung, Übertragung, Widerspruch gegen die Verarbeitung, Datenübertragbarkeit und (wenn der rechtmäßige Grund der Verarbeitung die Einwilligung ist) Widerruf der Einwilligung zu verlangen."
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie oder unseren Datenschutzpraktiken haben, kontaktieren Sie uns bitte unter:"
+    }
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "description": "Nutzungsbedingungen für SecuriTop Sicherheitsdienste",
+    "subtitle": "Die Bedingungen für die Nutzung unserer Dienstleistungen",
+    "lastUpdated": "Zuletzt aktualisiert: 1. Oktober 2023",
+    "introduction": {
+      "title": "Einführung",
+      "content": "Willkommen bei SecuriTop. Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und Dienstleistungen. Durch den Zugriff auf diese Website oder die Nutzung unserer Dienstleistungen gehen wir davon aus, dass Sie diese Bedingungen vollständig akzeptieren. Nutzen Sie unsere Website oder Dienstleistungen nicht weiter, wenn Sie nicht alle auf dieser Seite genannten Bedingungen akzeptieren."
+    },
+    "definitions": {
+      "title": "Definitionen",
+      "content": "Die folgende Terminologie gilt für diese Allgemeinen Geschäftsbedingungen, Datenschutzerklärung und Haftungsausschluss sowie für alle Vereinbarungen:",
+      "company": "\"Unternehmen\", \"Wir\", \"Unser\" und \"Uns\" bezieht sich auf SecuriTop Sicherheitsdienste.",
+      "client": "\"Kunde\", \"Sie\" und \"Ihr\" bezieht sich auf die Person, die auf diese Website zugreift und die Allgemeinen Geschäftsbedingungen des Unternehmens akzeptiert.",
+      "services": "\"Dienstleistungen\" bezieht sich auf die Sicherheitsdienstleistungen, die von SecuriTop wie auf unserer Website beschrieben erbracht werden."
+    },
+    "serviceProvision": {
+      "title": "Erbringung der Dienstleistungen",
+      "content": "SecuriTop bietet Sicherheitsdienstleistungen an, wie sie auf unserer Website beschrieben sind. Wir bemühen uns, diese Dienstleistungen mit höchster Professionalität und Fachkompetenz zu erbringen. Alle Dienstleistungen unterliegen unseren Qualitätskontrollverfahren und relevanten Branchenvorschriften."
+    },
+    "obligations": {
+      "title": "Kundenpflichten",
+      "content": "Als Kunde verpflichten Sie sich:",
+      "point1": "Genaue und vollständige Informationen zu liefern, wenn diese angefordert werden.",
+      "point2": "Vollständig mit unserem Sicherheitspersonal zusammenzuarbeiten.",
+      "point3": "Alle Gebühren und Kosten gemäß den vereinbarten Bedingungen zu bezahlen.",
+      "point4": "Alle geltenden Gesetze und Vorschriften einzuhalten."
+    },
+    "payment": {
+      "title": "Zahlungsbedingungen",
+      "content": "Die Zahlung für unsere Dienstleistungen ist fällig, wie in unserer Servicevereinbarung angegeben. Wir akzeptieren verschiedene Zahlungsmethoden, wie während des Bestellvorgangs angegeben. Verspätete Zahlungen können Zinsen und/oder eine Aussetzung des Dienstes zur Folge haben."
+    },
+    "liability": {
+      "title": "Haftungsbeschränkung",
+      "content": "Obwohl wir bestrebt sind, Sicherheitsdienstleistungen von höchster Qualität zu erbringen, können wir keine absolute Sicherheit unter allen Umständen garantieren. Unsere Haftung ist im gesetzlich zulässigen Umfang beschränkt. Wir haften nicht für indirekte, Folge- oder zufällige Schäden, die sich aus der Nutzung unserer Dienstleistungen ergeben."
+    },
+    "termination": {
+      "title": "Kündigung",
+      "content": "Jede Partei kann die Servicevereinbarung gemäß den im Vertrag festgelegten Bedingungen kündigen. Wir behalten uns das Recht vor, Dienstleistungen im Falle von Nichtzahlung oder Verletzung dieser Bedingungen sofort zu kündigen."
+    },
+    "governing": {
+      "title": "Geltendes Recht",
+      "content": "Diese Allgemeinen Geschäftsbedingungen unterliegen dem Recht Deutschlands und werden entsprechend ausgelegt. Sie unterwerfen sich der nicht ausschließlichen Zuständigkeit der Gerichte in Berlin für die Beilegung von Streitigkeiten."
+    },
+    "changes": {
+      "title": "Änderungen der Bedingungen",
+      "content": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen treten sofort nach der Veröffentlichung auf unserer Website in Kraft. Es liegt in Ihrer Verantwortung, diese Bedingungen regelmäßig zu überprüfen."
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "content": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter:"
+    }
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "services": "Dienstleistungen",
+    "support": "Support",
+    "newsletter": {
+      "title": "Abonnieren Sie unseren Newsletter",
+      "subtitle": "Bleiben Sie über die neuesten Sicherheitsnachrichten und Updates informiert",
+      "placeholder": "Ihre E-Mail-Adresse",
+      "button": "Abonnieren"
+    },
+    "copyright": "© 2023 SecuriTop GmbH. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "AGB"
+  },
+  "careers": {
+    "hero": {
+      "title": "Unserem Team beitreten",
+      "subtitle": "Bauen Sie eine lohnende Karriere im Sicherheitsdienst auf"
+    },
+    "whyUs": {
+      "title": "Warum bei uns arbeiten",
+      "subtitle": "Entdecken Sie die Vorteile, Teil des SecuriTop-Teams zu sein",
+      "growth": {
+        "title": "Karrierewachstum",
+        "content": "Wir bieten kontinuierliche Schulungen und Aufstiegsmöglichkeiten, um Ihnen zu helfen, sich beruflich weiterzuentwickeln"
+      },
+      "innovation": {
+        "title": "Innovationskultur",
+        "content": "Werden Sie Teil eines Teams, das neue Technologien und Ansätze für Sicherheitsherausforderungen einsetzt"
+      },
+      "team": {
+        "title": "Kollaboratives Team",
+        "content": "Treten Sie einem unterstützenden und vielfältigen Team von Sicherheitsexperten bei, die sich der Exzellenz verschrieben haben"
+      }
+    },
+    "tabs": {
+      "openings": "Aktuelle Stellenangebote",
+      "apply": "Jetzt bewerben"
+    },
+    "openings": {
+      "title": "Aktuelle Stellenangebote",
+      "subtitle": "Entdecken Sie Karrieremöglichkeiten bei SecuriTop"
+    },
+    "jobs": {
+      "responsibilities": "Verantwortlichkeiten",
+      "requirements": "Anforderungen",
+      "apply": "Auf diese Stelle bewerben"
+    },
+    "application": {
+      "title": "Auf eine Stelle bewerben",
+      "subtitle": "Reichen Sie Ihre Bewerbung ein, um unserem Team beizutreten",
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail",
+      "phone": "Telefonnummer",
+      "position": "Position, für die Sie sich bewerben",
+      "resume": "Lebenslauf hochladen",
+      "coverLetter": "Anschreiben",
+      "submit": "Bewerbung einreichen",
+      "submitting": "Wird eingereicht...",
+      "success": "Ihre Bewerbung wurde erfolgreich eingereicht!",
+      "error": "Bei der Einreichung Ihrer Bewerbung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  }
+} 
