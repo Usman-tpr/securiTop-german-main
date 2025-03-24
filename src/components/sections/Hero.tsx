@@ -84,7 +84,7 @@ const Hero: React.FC<HeroProps> = ({
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/services/banner.jpg"
+          src="/images/services/banner.webp"
           alt="Security Background"
           fill
           priority={imagePriority}

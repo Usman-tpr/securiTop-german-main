@@ -15,7 +15,7 @@ export const siteConfig = {
     employees: "100+",
     clients: "1000+",
     countries: 3,
-    logo: "/images/logo/logo-1.jpeg",
+    logo: "/images/logo/logo-1.jpg",
   },
   contact: {
     phone: "07032-37550199",
