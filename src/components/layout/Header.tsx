@@ -65,7 +65,7 @@ const Header = () => {
         scrolled ? 'bg-white shadow-md' : 'bg-white'
       }`}
     >
-      <div className="container mx-auto px-4 md:px-6 lg:px-2">
+      <div className="container mx-auto px-1 md:px-6 lg:px-2">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <motion.div
@@ -74,7 +74,7 @@ const Header = () => {
           >
             <Link href="/" className="flex items-center">
               <div className="flex items-center">
-                <div className="relative h-64 w-64 sm:h-64 sm:w-64 mr-2">
+                <div className="relative h-64 w-60 sm:h-60 sm:w-64 mr-0 sm:mr-2">
                   <Image 
                     src={siteConfig.company.logo} 
                     alt={siteConfig.company.name} 
@@ -83,7 +83,7 @@ const Header = () => {
                     priority
                   />
                 </div>
-                <span className="text-2xl font-bold" style={{ color: siteConfig.colors.primary }}>
+                <span className="text-lg lg:text-2xl font-bold" style={{ color: siteConfig.colors.primary }}>
                   {siteConfig.company.name}
                 </span>
               </div>
