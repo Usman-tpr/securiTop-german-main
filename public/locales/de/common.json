@@ -3,6 +3,9 @@
     "title": "SecuriTop - Führender Sicherheitsdienst in Deutschland",
     "description": "SecuriTop bietet umfassende Sicherheitslösungen für Unternehmen und Privatpersonen in ganz Deutschland. Unsere Dienstleistungen umfassen Objektschutz, Cybersicherheit, Videoüberwachung und mehr."
   },
+  "description": {
+    "en": "Führende Sicherheitsdienstleister in Deutschland, die umfassende Lösungen für Unternehmen und Einzelpersonen anbieten."
+  },
   "careersb": {
     "buttons": {
       "apply": "Jetzt bewerben"
@@ -33,7 +36,7 @@
   },
   "home": {
     "hero": {
-      "title": "Ihre Sicherheit, unsere Priorität",
+      "title": "Ihre Sicherheit",
       "subtitle": "Umfassende Sicherheitslösungen für Unternehmen und Privatpersonen",
       "cta": "Erhalten Sie eine kostenlose Sicherheitsbewertung"
     },
@@ -315,19 +318,19 @@
         "address": "Adlerstraße 7, 71083 Herrenberg, Deutschland",
         "phone": "07032-37550199",
         "mobile": "017662070553",
-        "email": "info@securitop-sicherheit.de"
+        "email": "info@SecuriTop-sicherheit.de"
       },
       "munich": {
         "title": "München",
         "address": "Sicherheitsallee 456, 80331 München, Deutschland",
         "phone": "+49 123 456 790",
-        "email": "munich@securitop.de"
+        "email": "munich@SecuriTop.de"
       },
       "hamburg": {
         "title": "Hamburg",
         "address": "Sicherheitsweg 789, 20095 Hamburg, Deutschland",
         "phone": "+49 123 456 791",
-        "email": "hamburg@securitop.de"
+        "email": "hamburg@SecuriTop.de"
       }
     }
   },
@@ -490,7 +493,7 @@
       "placeholder": "Ihre E-Mail-Adresse",
       "button": "Abonnieren"
     },
-    "copyright": "© 2023 SecuriTop GmbH. Alle Rechte vorbehalten.",
+    "copyright": "© 2023 SecuriTop Sicherheits. Alle Rechte vorbehalten.",
     "privacy": "Datenschutz",
     "terms": "AGB"
   },

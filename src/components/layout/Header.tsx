@@ -61,8 +61,8 @@ const Header = () => {
 
   return (
     <header 
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-md' : 'bg-transparent'
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 p-3 sm:p-10 ${
+        scrolled ? 'bg-white shadow-md' : 'bg-white'
       }`}
     >
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
@@ -74,11 +74,11 @@ const Header = () => {
           >
             <Link href="/" className="flex items-center">
               <div className="flex items-center">
-                <div className="relative h-24 w-44 mr-2">
+                <div className="relative h-64 w-64 sm:h-64 sm:w-64 mr-2">
                   <Image 
                     src={siteConfig.company.logo} 
                     alt={siteConfig.company.name} 
-                    className="object-cover rounded-full"
+                    className=" object-cover w-full"
                     fill
                     priority
                   />

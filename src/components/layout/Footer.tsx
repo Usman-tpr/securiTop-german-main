@@ -24,7 +24,7 @@ const Footer = () => {
               </div>
               <h3 className="text-2xl font-bold">{siteConfig.company.name}</h3>
             </div>
-            <p className="mb-4 text-gray-300">{siteConfig.company.description}</p>
+            <p className="mb-4 text-gray-300">{t("description.en")}</p>
             <div className="flex space-x-4 mt-6">
               <a 
                 href={siteConfig.socialMedia.facebook} 

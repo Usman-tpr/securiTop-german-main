@@ -92,7 +92,7 @@ const Hero: React.FC<HeroProps> = ({
           quality={90}
         />
         <div
-          className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/50 z-1"
+          className="absolute inset-0 bg-gradient-to-b from-white/70 to-white/1 z-1"
           aria-hidden="true"
         />
       </div>
@@ -105,7 +105,7 @@ const Hero: React.FC<HeroProps> = ({
         variants={containerVariants}
         style={{ y }}
       >
-        <div className="container mx-auto max-w-5xl text-white">
+        <div className="container mx-auto max-w-5xl text-black">
           <motion.div 
             className="inline-block mb-4 bg-primary/90 px-4 py-1.5 rounded-full backdrop-blur-sm"
             variants={badgeVariants}
@@ -121,7 +121,7 @@ const Hero: React.FC<HeroProps> = ({
           </motion.h1>
           
           <motion.p
-            className="text-xl md:text-2xl mb-8 md:mb-10 max-w-2xl drop-shadow-md"
+            className="text-xl md:text-2xl mb-8 md:mb-10 max-w-2xl drop-shadow-md font-bold"
             variants={itemVariants}
           >
             {subtitle}

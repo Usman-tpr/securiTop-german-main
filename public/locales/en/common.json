@@ -3,6 +3,9 @@
     "title": "SecuriTop - Leading Security Service in Germany",
     "description": "SecuriTop provides comprehensive security solutions for businesses and individuals across Germany. Our services include physical security, cyber security, CCTV systems, and more."
   },
+  "description": {
+    "en": "Leading security services provider in Germany, offering comprehensive solutions for businesses and individuals."
+  },
   "careersb": {
     "buttons": {
       "apply": "Apply Now"
@@ -315,19 +318,19 @@
         "address": "Adlerstraße 7, 71083 Herrenberg, Germany",
         "phone": "07032-37550199",
         "mobile": "017662070553",
-        "email": "info@securitop-sicherheit.de"
+        "email": "info@SecuriTop-sicherheit.de"
       },
       "munich": {
         "title": "Munich",
         "address": "456 Security Avenue, 80331 Munich, Germany",
         "phone": "+49 123 456 790",
-        "email": "munich@securitop.de"
+        "email": "munich@SecuriTop.de"
       },
       "hamburg": {
         "title": "Hamburg",
         "address": "789 Security Way, 20095 Hamburg, Germany",
         "phone": "+49 123 456 791",
-        "email": "hamburg@securitop.de"
+        "email": "hamburg@SecuriTop.de"
       }
     }
   },
@@ -543,7 +546,7 @@
       "placeholder": "Your Email Address",
       "button": "Subscribe"
     },
-    "copyright": "© 2023 SecuriTop Sicherheitsdienst. All Rights Reserved.",
+    "copyright": "© 2023 SecuriTop Sicherheits. All Rights Reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
   }

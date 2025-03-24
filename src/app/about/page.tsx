@@ -227,7 +227,7 @@ export default function About() {
       </Section>
       
       {/* History Section */}
-      <Section background="white">
+      {/* <Section background="white">
         <div 
           ref={historyRef}
           className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
@@ -275,7 +275,7 @@ export default function About() {
             </div>
           </motion.div>
         </div>
-      </Section>
+      </Section> */}
       
       {/* Values Section */}
       <Section background="light">
