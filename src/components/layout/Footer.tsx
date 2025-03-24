@@ -115,7 +115,9 @@ const Footer = () => {
         </div>
         
         {/* Contact Info */}
+
         <div className="border-t border-gray-800 pt-8 mt-8">
+          
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
             <div className="flex items-center space-x-3">
               <Mail size={20} className="text-secondary" />
