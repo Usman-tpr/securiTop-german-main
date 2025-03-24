@@ -308,6 +308,7 @@
       "title": "Kontaktinformationen",
       "address": "Adresse",
       "phone": "Telefon",
+      "mobile":"Whatsapp",
       "email": "E-Mail",
       "hours": "Öffnungszeiten"
     },

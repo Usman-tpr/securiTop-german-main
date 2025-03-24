@@ -9,10 +9,11 @@ import Section from '@/components/ui/Section';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Button from '@/components/ui/Button';
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { BsWhatsapp } from 'react-icons/bs';
 
 export default function Contact() {
   const { t } = useTranslation();
-  
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -21,16 +22,16 @@ export default function Contact() {
     message: '',
   });
   const [formStatus, setFormStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
-  
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
-  
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setFormStatus('submitting');
-    
+
     // Simulate API call
     setTimeout(() => {
       // In a real application, this would be an actual API call
@@ -68,7 +69,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      
+
       {/* Contact Form & Info Section */}
       <Section background="white">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
@@ -78,8 +79,8 @@ export default function Contact() {
               title={t('contact.form.title')}
               center={false}
             />
-            
-            <motion.form 
+
+            <motion.form
               onSubmit={handleSubmit}
               className="mt-8"
               initial={{ opacity: 0, y: 20 }}
@@ -116,7 +117,7 @@ export default function Contact() {
                   />
                 </div>
               </div>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
@@ -146,7 +147,7 @@ export default function Contact() {
                   />
                 </div>
               </div>
-              
+
               <div className="mb-6">
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
                   {t('contact.form.message')}*
@@ -161,7 +162,7 @@ export default function Contact() {
                   className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                 ></textarea>
               </div>
-              
+
               <div className="flex items-center justify-between">
                 <Button
                   type="submit"
@@ -170,20 +171,20 @@ export default function Contact() {
                   icon={formStatus === 'submitting' ? undefined : <Send size={16} />}
                   className="min-w-[150px]"
                 >
-                  {formStatus === 'submitting' ? 
+                  {formStatus === 'submitting' ?
                     <span className="flex items-center">
                       <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                         <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                         <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                       </svg>
                       {t('contact.form.sending')}
-                    </span> : 
+                    </span> :
                     t('contact.form.submit')
                   }
                 </Button>
-                
+
                 {formStatus === 'success' && (
-                  <motion.div 
+                  <motion.div
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
                     className="flex items-center text-green-600"
@@ -192,9 +193,9 @@ export default function Contact() {
                     <span>{t('contact.form.success')}</span>
                   </motion.div>
                 )}
-                
+
                 {formStatus === 'error' && (
-                  <motion.div 
+                  <motion.div
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
                     className="flex items-center text-red-600"
@@ -206,11 +207,11 @@ export default function Contact() {
               </div>
             </motion.form>
           </div>
-          
+
           {/* Contact Info Column */}
           <div className="lg:col-span-2 bg-light p-8 rounded-lg">
             <h3 className="text-2xl font-bold mb-6">{t('contact.info.title')}</h3>
-            
+
             <div className="space-y-6">
               <div className="flex items-start">
                 <MapPin size={24} className="text-primary mt-1 mr-4 flex-shrink-0" />
@@ -223,7 +224,7 @@ export default function Contact() {
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start">
                 <Phone size={24} className="text-primary mt-1 mr-4 flex-shrink-0" />
                 <div>
@@ -235,7 +236,19 @@ export default function Contact() {
                   </p>
                 </div>
               </div>
-              
+
+              <div className="flex items-start">
+                <BsWhatsapp size={24} className="text-primary mt-1 mr-4 flex-shrink-0" />
+                <div>
+                  <h4 className="font-semibold mb-1">{t('contact.info.mobile')}</h4>
+                  <p className="text-gray-600">
+                    <a href={`https://wa.me/${siteConfig.contact.mobile}`} className="hover:text-primary">
+                      {siteConfig.contact.mobile}
+                    </a>
+                  </p>
+                </div>
+              </div>
+
               <div className="flex items-start">
                 <Mail size={24} className="text-primary mt-1 mr-4 flex-shrink-0" />
                 <div>
@@ -247,15 +260,14 @@ export default function Contact() {
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start">
                 <Clock size={24} className="text-primary mt-1 mr-4 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold mb-1">{t('contact.info.hours')}</h4>
                   <p className="text-gray-600">
-                    Monday - Friday: 8:00 AM - 6:00 PM<br />
-                    Saturday: 9:00 AM - 2:00 PM<br />
-                    Sunday: Closed
+                    Monday - Friday: 8:00 Uhr - 18:00 Uhr<br />
+                    Saturday: 9:00 Uhr - 14:00 Uhr<br />
                   </p>
                 </div>
               </div>
@@ -263,28 +275,28 @@ export default function Contact() {
           </div>
         </div>
       </Section>
-      
+
       {/* Map Section */}
       <Section background="light" padding="none">
         <div className="relative h-[400px] w-full">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2632.1392929188534!2d8.866083776889503!3d48.5942413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799f4c3440dde51%3A0x2f66e63067c96a87!2sAdlerstra%C3%9Fe%207%2C%2071083%20Herrenberg%2C%20Germany!5e0!3m2!1sen!2sus!4v1681889321981!5m2!1sen!2sus" 
-            width="100%" 
-            height="100%" 
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2632.1392929188534!2d8.866083776889503!3d48.5942413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799f4c3440dde51%3A0x2f66e63067c96a87!2sAdlerstra%C3%9Fe%207%2C%2071083%20Herrenberg%2C%20Germany!5e0!3m2!1sen!2sus!4v1681889321981!5m2!1sen!2sus"
+            width="100%"
+            height="100%"
             style={{ border: 0 }}
-            allowFullScreen={false} 
+            allowFullScreen={false}
             loading="lazy"
             title="Google Maps"
           ></iframe>
         </div>
       </Section>
-      
+
       {/* Office Locations */}
       <Section background="white">
         <SectionTitle
           title={t('contact.locations.title')}
         />
-        
+
         <div className="flex items-center justify-center mt-10">
           <div className="bg-light p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-4">{t('contact.locations.berlin.title')}</h3>
@@ -295,6 +307,12 @@ export default function Contact() {
                 {t('contact.locations.berlin.phone')}
               </a>
             </p>
+            <p className="mb-2">
+              <strong>{t('contact.info.mobile')}:</strong>{' '}
+              <a href={`https://wa.me/${siteConfig.contact.mobile}`} className="hover:text-primary">
+                {siteConfig.contact.mobile}
+              </a>
+            </p>
             <p>
               <strong>{t('contact.info.email')}:</strong>{' '}
               <a href={`mailto:${t('contact.locations.berlin.email')}`} className="hover:text-primary">
@@ -302,7 +320,7 @@ export default function Contact() {
               </a>
             </p>
           </div>
-          
+
 
         </div>
       </Section>

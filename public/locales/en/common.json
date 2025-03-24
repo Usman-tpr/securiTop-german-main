@@ -307,6 +307,7 @@
     "info": {
       "title": "Contact Information",
       "address": "Address",
+      "mobile": "Whatsapp",
       "phone": "Phone",
       "email": "Email",
       "hours": "Working Hours"
