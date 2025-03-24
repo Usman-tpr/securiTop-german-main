@@ -2,7 +2,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslation } from '@/utils/i18n';
 import { siteConfig } from '@/config/siteConfig';
-import { Facebook, Linkedin, Twitter, Instagram, Mail, Send } from 'lucide-react';
+import { Facebook, Linkedin, Twitter, Instagram, Mail, Send, Phone } from 'lucide-react';
+import { BsWhatsapp } from 'react-icons/bs';
+import { PiPhoneCallFill } from 'react-icons/pi';
 
 const Footer = () => {
   const { t, locale } = useTranslation();
@@ -114,7 +116,7 @@ const Footer = () => {
         
         {/* Contact Info */}
         <div className="border-t border-gray-800 pt-8 mt-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
             <div className="flex items-center space-x-3">
               <Mail size={20} className="text-secondary" />
               <a 
@@ -127,9 +129,13 @@ const Footer = () => {
             <div className="text-gray-300">
               {siteConfig.contact.address.street}, {siteConfig.contact.address.postalCode} {siteConfig.contact.address.city}, {siteConfig.contact.address.country}
             </div>
-            <div className="text-gray-300">
-              {siteConfig.contact.phone}
+            <div className="text-gray-300 flex items-center space-x-2">
+              <Phone size={20}/> <p>{siteConfig.contact.phone}</p>
             </div>
+            <div className="text-gray-300 flex items-center space-x-2">
+              <BsWhatsapp size={20}/> <a href={`https://wa.me/${siteConfig.contact.mobile}`}> {siteConfig.contact.mobile}</a>
+            </div>
+          
           </div>
         </div>
         
