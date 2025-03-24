@@ -266,8 +266,8 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold mb-1">{t('contact.info.hours')}</h4>
                   <p className="text-gray-600">
-                    Monday - Friday: 8:00 Uhr - 18:00 Uhr<br />
-                    Saturday: 9:00 Uhr - 14:00 Uhr<br />
+                <p> {t("hours.en")}</p>
+                <p> {t("hours.en1")}</p>
                   </p>
                 </div>
               </div>

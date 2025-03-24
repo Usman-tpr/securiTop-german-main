@@ -15,8 +15,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center mb-4">
-              <div className="relative h-16 w-full mr-3">
+            <div className="flex flex-col items-center mb-4">
+              <div className="relative h-64 w-64 mr-3">
                 <Image 
                   src={siteConfig.company.logo} 
                   alt={siteConfig.company.name} 
@@ -117,7 +117,7 @@ const Footer = () => {
         {/* Contact Info */}
 
         <div className="border-t border-gray-800 pt-8 mt-8">
-          
+
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
             <div className="flex items-center space-x-3">
               <Mail size={20} className="text-secondary" />

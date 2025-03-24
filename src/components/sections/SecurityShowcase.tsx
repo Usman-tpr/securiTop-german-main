@@ -36,7 +36,7 @@ const showcaseItems = [
     title: 'Night Watch Services',
     description: 'Dedicated night security teams ensuring 24/7 protection',
     icon: <Moon className="w-8 h-8" />,
-    image: 'https://images.unsplash.com/photo-1617440168937-c6497eaa8db5?q=80&w=2070',
+    image: '/images/services/nightWatch.jpg',
     stats: ['Regular Patrols', 'Incident Response', 'Digital Reporting']
   },
   {
@@ -44,7 +44,7 @@ const showcaseItems = [
     title: 'Fire Protection',
     description: 'Comprehensive fire safety and emergency response solutions',
     icon: <Flame className="w-8 h-8" />,
-    image: 'https://images.unsplash.com/photo-1599586120429-48281b6f0ece?q=80&w=2070',
+    image: '/images/services/fire.jpg',
     stats: ['Prevention', 'Detection', 'Response']
   },
   {

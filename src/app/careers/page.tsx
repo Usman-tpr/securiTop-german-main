@@ -102,8 +102,8 @@ export default function Careers() {
       {/* Why Join Us Section */}
       <Section background="light">
         <SectionTitle
-          title={t('careers.whyJoinUs.title') || "Why Join SecuriTop?"}
-          subtitle={t('careers.whyJoinUs.subtitle') || "Discover the benefits of being part of our professional security team"}
+          title={t('careers.whyUs.title') || "Why Join SecuriTop?"}
+          subtitle={t('careers.whyUs.subtitle') || "Discover the benefits of being part of our professional security team"}
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {[

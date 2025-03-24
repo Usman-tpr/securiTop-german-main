@@ -39,7 +39,7 @@ export const siteConfig = {
       { label: { en: "Home", de: "Startseite" }, path: "/" },
       { label: { en: "About Us", de: "Über Uns" }, path: "/about" },
       { label: { en: "Services", de: "Dienstleistungen" }, path: "/services" },
-    //   { label: { en: "Blog", de: "Blog" }, path: "/blog" },
+      { label: { en: "Careers", de: "Karriere" }, path: "/careers" },
       { label: { en: "FAQ", de: "FAQ" }, path: "/faq" },
       { label: { en: "Contact", de: "Kontakt" }, path: "/contact" },
     ],

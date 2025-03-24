@@ -3,6 +3,11 @@
     "title": "SecuriTop - Leading Security Service in Germany",
     "description": "SecuriTop provides comprehensive security solutions for businesses and individuals across Germany. Our services include physical security, cyber security, CCTV systems, and more."
   },
+  "hours": {
+    "en": "Monday - Friday: 8:00 Uhr - 18:00 Uhr",
+    "en1":"Saturday: 9:00 Uhr - 14:00 Uhr"
+
+  },
   "description": {
     "en": "Leading security services provider in Germany, offering comprehensive solutions for businesses and individuals."
   },

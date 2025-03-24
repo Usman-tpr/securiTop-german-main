@@ -3,6 +3,10 @@
     "title": "SecuriTop - Führender Sicherheitsdienst in Deutschland",
     "description": "SecuriTop bietet umfassende Sicherheitslösungen für Unternehmen und Privatpersonen in ganz Deutschland. Unsere Dienstleistungen umfassen Objektschutz, Cybersicherheit, Videoüberwachung und mehr."
   },
+  "hours": {
+    "en": "Montag - Freitag: 8:00 Uhr - 18:00 Uhr",
+    "en1":"Samstag: 9:00 Uhr - 14:00 Uhr"
+  },
   "description": {
     "en": "Führende Sicherheitsdienstleister in Deutschland, die umfassende Lösungen für Unternehmen und Einzelpersonen anbieten."
   },

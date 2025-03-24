@@ -5,57 +5,29 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
-
-const services = [
-  {
-    id: 1,
-    title: 'Personal Protection',
-    image: '/images/services/personal.jpg',
-    link: '/services/personal-protection',
-  },
-  {
-    id: 2,
-    title: 'Event Security',
-    image: '/images/services/events.jpg',
-    link: '/services/event-security',
-  },
-  {
-    id: 3,
-    title: 'Fire Protection',
-    image: '/images/services/fire.jpg',
-    link: '/services/fire-protection',
-  },
-  {
-    id: 4,
-    title: 'Surveillance Systems',
-    image: '/images/services/retail.jpg',
-    link: '/services/surveillance',
-  },
-  {
-    id: 5,
-    title: 'Transport Security',
-    image: '/images/services/transport.jpg',
-    link: '/services/transport-security',
-  },
-  {
-    id: 6,
-    title: 'Night Watch Service',
-    image: '/images/services/nightWatch.jpg',
-    link: '/services/night-watch-service',
-  },
-];
+import { useTranslation } from '@/utils/i18n';
+import { siteConfig } from '@/config/siteConfig';
 
 const ServiceSlider = () => {
+  const { locale } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
+  // Use services from siteConfig
+  const services = siteConfig.services.map(service => ({
+    id: service.id,
+    title: service.title[locale],
+    image: `/images/services/${service.id}.jpg`,
+    link: `/services#${service.id}`,
+  }));
+
   const nextSlide = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1) % services.length);
-  }, []);
+  }, [services.length]);
 
   const prevSlide = useCallback(() => {
     setCurrentIndex((prev) => (prev - 1 + services.length) % services.length);
-  }, []);
+  }, [services.length]);
 
   // Auto-play functionality
   useEffect(() => {
