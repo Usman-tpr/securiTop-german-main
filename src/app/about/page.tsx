@@ -157,7 +157,7 @@ export default function About() {
             transition={{ duration: 0.8 }}
           >
             <Image
-              src="/images/about/our-mission-2.jpg"
+              src="/images/about/our-history.avif"
               alt={t('about.mission.title') || "Our Mission"}
               fill
               className="object-cover hover:scale-105 transition-transform duration-700"
