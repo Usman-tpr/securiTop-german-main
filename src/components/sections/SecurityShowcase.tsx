@@ -5,62 +5,52 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import { Shield, Users, Building2, Moon, Flame, Train, Eye, Clock } from 'lucide-react';
 import { useTranslation } from '@/utils/i18n';
-
-const showcaseItems = [
-  {
-    id: 1,
-    title: 'Elite Personal Protection',
-    description: 'Professional bodyguards and personal security details for VIP clients',
-    icon: <Shield className="w-8 h-8" />,
-    image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070',
-    stats: ['24/7 Coverage', 'Trained Professionals', 'Risk Assessment']
-  },
-  {
-    id: 2,
-    title: 'Event Security Excellence',
-    description: 'Comprehensive security for corporate events, conferences, and public gatherings',
-    icon: <Users className="w-8 h-8" />,
-    image: 'https://images.unsplash.com/photo-1521791055366-0d553872125f?q=80&w=2069',
-    stats: ['Crowd Management', 'Access Control', 'Emergency Response']
-  },
-  {
-    id: 3,
-    title: 'Property Protection',
-    description: 'Advanced security systems and personnel for commercial and residential properties',
-    icon: <Building2 className="w-8 h-8" />,
-    image: 'https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=2070',
-    stats: ['Surveillance', 'Patrol Services', 'Access Management']
-  },
-  {
-    id: 4,
-    title: 'Night Watch Services',
-    description: 'Dedicated night security teams ensuring 24/7 protection',
-    icon: <Moon className="w-8 h-8" />,
-    image: '/images/services/nightWatch.jpg',
-    stats: ['Regular Patrols', 'Incident Response', 'Digital Reporting']
-  },
-  {
-    id: 5,
-    title: 'Fire Protection',
-    description: 'Comprehensive fire safety and emergency response solutions',
-    icon: <Flame className="w-8 h-8" />,
-    image: '/images/services/fire.jpg',
-    stats: ['Prevention', 'Detection', 'Response']
-  },
-  {
-    id: 6,
-    title: 'Transport Security',
-    description: 'Specialized protection for rail, cargo, and valuable transports',
-    icon: <Train className="w-8 h-8" />,
-    image: 'https://images.unsplash.com/photo-1474487548417-781cb71495f3?q=80&w=2084',
-    stats: ['Route Planning', 'Armed Guards', 'GPS Tracking']
-  }
-];
+import { siteConfig } from '@/config/siteConfig';
 
 const SecurityShowcase = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [direction, setDirection] = useState(0);
-  const { t } = useTranslation();
+  const { t, locale } = useTranslation();
+
+  // Map icon names to components
+  const getIcon = (iconName: string) => {
+    switch (iconName) {
+      case 'shield':
+        return <Shield className="w-8 h-8" />;
+      case 'users':
+        return <Users className="w-8 h-8" />;
+      case 'building':
+        return <Building2 className="w-8 h-8" />;
+      case 'moon':
+        return <Moon className="w-8 h-8" />;
+      case 'flame':
+        return <Flame className="w-8 h-8" />;
+      case 'truck':
+        return <Train className="w-8 h-8" />;
+      default:
+        return <Shield className="w-8 h-8" />;
+    }
+  };
+
+  // Get service stats based on service ID and locale
+  const getServiceStats = (serviceId: string, locale: string) => {
+    const stats = [];
+    for (let i = 1; i <= 3; i++) {
+      const stat = t(`services.${serviceId}.features.${i}`);
+      if (stat) stats.push(stat);
+    }
+    return stats;
+  };
+
+  // Get showcase items from siteConfig services
+  const showcaseItems = siteConfig.services.slice(0, 6).map(service => ({
+    id: service.id,
+    title: service.title[locale],
+    description: service.description[locale],
+    icon: getIcon(service.icon),
+    image: `/images/services/${service.id}.jpg`,
+    stats: getServiceStats(service.id, locale)
+  }));
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -69,7 +59,7 @@ const SecurityShowcase = () => {
     }, 5000);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [showcaseItems.length]);
 
   const handleSlideChange = (newIndex: number) => {
     setDirection(newIndex > activeIndex ? 1 : -1);
